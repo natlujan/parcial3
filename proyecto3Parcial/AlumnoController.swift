@@ -5,7 +5,6 @@
 //  Created by Alumno ULSA on 01/11/22.
 //  Copyright © 2022 Alumno. All rights reserved.
 //
-
 import UIKit
 
 class AlumnoController: UIViewController {
@@ -17,27 +16,34 @@ class AlumnoController: UIViewController {
     @IBOutlet weak var lblTelefono1: UILabel!
     
     @IBOutlet weak var imgFoto: UIImageView!
-    var alumno: [Alumno] = [Alumno(nombre: "Natalia Luján Chávez",foto:"fotoPrueba", matricula: "199415", nombreContacto: "Marcela Chávez Lechuga", parentesco: "Madre", telefono1: "6141412269", telefono2: "N/A")]
+    
+    var alumno: Alumno?
+    
+    var pagos: [Pago]?
     
     override func viewDidLoad() {
         
         
-        lblNombre.text = alumno[0].nombre
-        imgFoto.layer.cornerRadius = 20
-        imgFoto.image = UIImage(named: alumno[0].foto)
-        lblMatricula.text = alumno[0].matricula
-        lblNombreContacto.text = alumno[0].nombreContacto
-        lblParentesco.text = alumno[0].parentesco
-        lblTelefono1.text = alumno[0].telefono1
-        lblTelefono2.text = alumno[0].telefono2
+        lblNombre.text = alumno?.nombre
+        imgFoto.layer.cornerRadius = imgFoto.bounds.size.width / 2.0
+        //imgFoto.layer.cornerRadius = 50
+        imgFoto.image = UIImage(named: alumno!.foto)
+        lblMatricula.text = alumno?.matricula
+        lblNombreContacto.text = alumno?.nombreContacto
+        lblParentesco.text = alumno?.parentesco
+        lblTelefono1.text = alumno?.telefono1
+        lblTelefono2.text = alumno?.telefono2
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "actualizarContacto" {
             let destino = segue.destination as! ActualizarContactoController
-            destino.alumno = alumno [0]
+            destino.alumno = alumno
             
             destino.callBackActualizar = actualizarContacto
+        } else if segue.identifier == "pagos" {
+            let destino = segue.destination as! PagoController
+            destino.pagos = pagos
         }
     }
     
