@@ -1,0 +1,78 @@
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "1HV-VU-x77"; */
+"1HV-VU-x77.text" = "Nombre";
+
+/* Class = "UIButton"; configuration.title = "Actualizar"; ObjectID = "7mb-zp-IIT"; */
+"7mb-zp-IIT.configuration.title" = "Actualizar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7mb-zp-IIT"; */
+"7mb-zp-IIT.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Pagos"; ObjectID = "BfY-hy-NPw"; */
+"BfY-hy-NPw.configuration.title" = "Pagos";
+
+/* Class = "UIButton"; normalTitle = "Pagos"; ObjectID = "BfY-hy-NPw"; */
+"BfY-hy-NPw.normalTitle" = "Pagos";
+
+/* Class = "UILabel"; text = "Nombre Clase"; ObjectID = "E7H-Gb-axd"; */
+"E7H-Gb-axd.text" = "Nombre Clase";
+
+/* Class = "UINavigationItem"; title = "Contacto de emergencia"; ObjectID = "E8B-9h-SdV"; */
+"E8B-9h-SdV.title" = "Contacto de emergencia";
+
+/* Class = "UILabel"; text = "Parentesco"; ObjectID = "LeP-QX-XBy"; */
+"LeP-QX-XBy.text" = "Parentesco";
+
+/* Class = "UILabel"; text = "Teléfono 2"; ObjectID = "NKs-hC-Anm"; */
+"NKs-hC-Anm.text" = "Teléfono 2";
+
+/* Class = "UIButton"; configuration.title = "Menú Cloche"; ObjectID = "R0f-Dn-fmw"; */
+"R0f-Dn-fmw.configuration.title" = "Menú Cloche";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "R0f-Dn-fmw"; */
+"R0f-Dn-fmw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Matricula"; ObjectID = "SPC-eo-19p"; */
+"SPC-eo-19p.text" = "Matricula";
+
+/* Class = "UILabel"; text = "Parentesco"; ObjectID = "YVL-Ov-IxE"; */
+"YVL-Ov-IxE.text" = "Parentesco";
+
+/* Class = "UINavigationItem"; title = "Titulo"; ObjectID = "aHw-aj-DWw"; */
+"aHw-aj-DWw.title" = "Titulo";
+
+/* Class = "UILabel"; text = "Teléfono 1"; ObjectID = "de7-NX-AN1"; */
+"de7-NX-AN1.text" = "Teléfono 1";
+
+/* Class = "UILabel"; text = "Nombre completo"; ObjectID = "fdn-k2-erw"; */
+"fdn-k2-erw.text" = "Nombre completo";
+
+/* Class = "UILabel"; text = "Horario"; ObjectID = "lUQ-ma-TBP"; */
+"lUQ-ma-TBP.text" = "Horario";
+
+/* Class = "UIButton"; configuration.title = "Actualizar información"; ObjectID = "mDF-T2-CLM"; */
+"mDF-T2-CLM.configuration.title" = "Actualizar información";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mDF-T2-CLM"; */
+"mDF-T2-CLM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "oem-Be-Hf7"; */
+"oem-Be-Hf7.text" = "Nombre";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "pYt-YG-BT6"; */
+"pYt-YG-BT6.title" = "Item";
+
+/* Class = "UILabel"; text = "Clases"; ObjectID = "qC8-X3-h7d"; */
+"qC8-X3-h7d.text" = "Clases";
+
+/* Class = "UILabel"; text = "Contacto de emergencia"; ObjectID = "qLN-UN-i3F"; */
+"qLN-UN-i3F.text" = "Contacto de emergencia";
+
+/* Class = "UILabel"; text = "Teléfono 2"; ObjectID = "uym-DN-kmE"; */
+"uym-DN-kmE.text" = "Teléfono 2";
+
+/* Class = "UILabel"; text = "7 de noviembre"; ObjectID = "ybg-BY-zaN"; */
+"ybg-BY-zaN.text" = "7 de noviembre";
+
+/* Class = "UILabel"; text = "Teléfono 1"; ObjectID = "zS6-wf-Fqz"; */
+"zS6-wf-Fqz.text" = "Teléfono 1";
